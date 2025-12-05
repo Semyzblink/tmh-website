@@ -4,8 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>[SERVICE NAME] in [CITY NAME] | The Modern Handyman</title>
-  <meta name="description" content="[SERVICE NAME] in [CITY NAME], TX. Professional handyman services. In business since 2015 — over 25 years of experience. Call or text (210) 570-6477.">
+  <!-- SEO TITLE -->
+  <title>{{service-name}} in {{city-name}}, TX | Local Expert Handyman Service | The Modern Handyman</title>
+
+  <!-- SEO DESCRIPTION -->
+  <meta name="description" content="Professional {{service-name}} in {{city-name}}, TX. Local handyman with 25+ years of experience, fair flat-rate pricing, and reliable same-day availability when possible. Call or text (210) 570-6477.">
+
+  <!-- SCHEMA -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "{{service-name}}",
+  "name": "{{service-name}} in {{city-name}}, TX",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "The Modern Handyman",
+    "image": "https://themodernhandymancompany.com/images/logo-with-tm.png",
+    "telephone": "+1-210-570-6477",
+    "email": "service@themodernhandymancompany.com",
+    "url": "https://themodernhandymancompany.com",
+    "areaServed": [
+      "Converse, TX",
+      "Schertz, TX",
+      "Universal City, TX",
+      "Live Oak, TX",
+      "Selma, TX",
+      "Windcrest, TX",
+      "Cibolo, TX",
+      "Garden Ridge, TX",
+      "Alamo Heights, TX",
+      "Terrell Hills, TX",
+      "St. Hedwig, TX",
+      "Adkins, TX",
+      "Northeast San Antonio, TX"
+    ]
+  },
+  "description": "{{service-meta-description}}",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "{{service-name}} Pricing",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "{{service-name}}"
+        }
+      }
+    ]
+  }
+}
+</script>
 
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="images/favicon.ico">
@@ -14,28 +64,27 @@
 
 <body class="single-service">
 
-
   <div class="main-container">
     <div class="top-bar"></div>
 
     <!-- NAVIGATION -->
     <div class="nav-bar">
       <nav>
-        <a href="index.html#top">Home</a>
-        <a href="index.html#services">Services</a>
-        <a href="index.html#locations">Locations</a>
+        <a href="{{city-slug}}-tx.html#top">Home</a>
+        <a href="{{city-slug}}-tx.html#services">Services</a>
+        <a href="{{city-slug}}-tx.html#locations">Locations</a>
         <a href="tel:2105706477">Call Now</a>
-        <a href="index.html#reviews">Reviews</a>
-        <a href="index.html#about">About Us</a>
+        <a href="{{city-slug}}-tx.html#reviews">Reviews</a>
+        <a href="{{city-slug}}-tx.html#about">About Us</a>
+        <a href="{{city-slug}}-tx.html#faq">FAQ</a>
       </nav>
     </div>
 
     <!-- LOGO -->
     <img src="images/logo-with-tm.png" alt="The Modern Handyman™ Logo" class="logo-img">
 
-    <!-- MAIN MUSTARD HEADER -->
+    <!-- MUSTARD HEADER -->
     <div class="main-body service-page" id="top" style="min-height:auto; padding-bottom:4em;">
-
 
       <h1 class="split-headline">
 
@@ -57,7 +106,7 @@
             display:inline-block;
             margin-top:10px;
           ">
-            [SERVICE NAME]
+            Expert {{service-name}}
           </span>
 
           <!-- CITY NAME -->
@@ -73,11 +122,11 @@
               -2px  2px 0 #0033cc,
                2px  2px 0 #0033cc;
           ">
-            [CITY NAME], TX
+            In {{city-name}}, TX
           </span>
         </span>
 
-        <!-- RIGHT SIDE (same as homepage) -->
+        <!-- RIGHT SIDE -->
         <span class="headline-right">
           Residential & Commercial Repairs,<br>
           Maintenance & Handyman Service.
@@ -92,9 +141,11 @@
         <strong>5.0</strong> Google Rating
       </div>
 
-      <!-- SERVICE PHOTO (Codex swaps slug) -->
+      <!-- SERVICE PHOTO (UPDATED PATH FORMAT) -->
       <div class="tech-wrapper">
-        <img src="images/service-[SERVICE-SLUG].jpg" alt="[SERVICE NAME] Photo" class="tech-img">
+        <img src="images/{{city-slug}}/{{service-slug}}-{{city-slug}}-tx.jpg"
+             alt="{{service-name}} in {{city-name}}"
+             class="tech-img">
       </div>
 
       <!-- BADGES -->
@@ -107,74 +158,192 @@
         </div>
       </div>
 
-    </div> <!-- end mustard header -->
+    </div> <!-- END MUSTARD HEADER -->
 
     <div class="bottom-bar"></div>
-  </div> <!-- main-container -->
+  </div>
 
-  <!-- SERVICE DESCRIPTION -->
+  <!-- SERVICE INTRO -->
   <p class="welcome-message">
-    We provide expert <strong>[SERVICE NAME]</strong> in <strong>[CITY NAME]</strong> and nearby areas.
-    Clean, professional work backed by over 25 years of experience.
+    We provide professional <strong>{{service-name}}</strong> in <strong>{{city-name}}</strong> and surrounding areas. 
+    Clean, high-quality work backed by over 25 years of hands-on experience.
   </p>
 
-  <!-- GRID OF ALL SERVICES -->
+  <!-- MORE SERVICES -->
   <section class="common-services" id="services">
-    <h2 class="section-title">More Handyman Services</h2>
-    <p class="section-intro">
-      Below is a list of our most requested services available throughout <strong>[CITY NAME]</strong>.
+  <h2 class="section-title">More Handyman Services</h2>
+
+  <p class="section-intro">
+    Below are other popular services available throughout <strong>{{city-name}}</strong>.
+  </p>
+
+  <div class="service-list">
+
+    <div class="service-item">
+      <a href="drywall-repairs-{{city-slug}}-tx.html">
+        <h3>Drywall Repairs</h3>
+      </a>
+      <ul>
+        <li>Patching</li>
+        <li>Texture Matching</li>
+        <li>Ceiling Repair</li>
+        <li>Wall Repair</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="tv-wall-mount-installation-{{city-slug}}-tx.html">
+        <h3>TV Mounting</h3>
+      </a>
+      <ul>
+        <li>Wall Mount Installation</li>
+        <li>Clean Cord Concealment</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="door-installation-{{city-slug}}-tx.html">
+        <h3>Door Installation</h3>
+      </a>
+      <ul>
+        <li>Interior, Exterior, Sliding, Pocket Doors</li>
+        <li>Repairs & Replacement</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="painting-{{city-slug}}-tx.html">
+        <h3>Painting</h3>
+      </a>
+      <ul>
+        <li>Interior Painting</li>
+        <li>Exterior Painting</li>
+        <li>Accent Walls</li>
+        <li>Trim Painting</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="trim-molding-{{city-slug}}-tx.html">
+        <h3>Trim &amp; Molding</h3>
+      </a>
+      <ul>
+        <li>Baseboards</li>
+        <li>Door Casing</li>
+        <li>Crown Molding</li>
+        <li>Interior &amp; Exterior Trim</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="siding-repairs-{{city-slug}}-tx.html">
+        <h3>Siding Repair</h3>
+      </a>
+      <ul>
+        <li>Wood & Fiber Cement Siding</li>
+        <li>Patching & Repairs</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="cabinet-hardware-installation-{{city-slug}}-tx.html">
+        <h3>Cabinet Hardware Installation</h3>
+      </a>
+      <ul>
+        <li>Knobs & Pulls</li>
+        <li>Soft-close Hinges</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="masonry-{{city-slug}}-tx.html">
+        <h3>Patio &amp; Masonry Repair</h3>
+      </a>
+      <ul>
+        <li>Stone, Mortar, Stucco Repair</li>
+        <li>Small Walkways</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="flooring-{{city-slug}}-tx.html">
+        <h3>Flooring</h3>
+      </a>
+      <ul>
+        <li>LVP, Laminate, Tile, Hardwood</li>
+        <li>Installation & Repairs</li>
+      </ul>
+    </div>
+
+    <div class="service-item">
+      <a href="appliance-installation-{{city-slug}}-tx.html">
+        <h3>Appliance Installation</h3>
+      </a>
+      <ul>
+        <li>Dishwashers</li>
+        <li>Microwaves</li>
+        <li>Disposals</li>
+        <li>Range Hoods</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="additional-services-note">
+    <p>
+      Need something not listed here? We offer many additional handyman repairs 
+      throughout <strong>{{city-name}}, TX</strong>. Call or text to ask about your project.
     </p>
-
-    <div class="service-list">
-      <div class="service-item"><a href="drywall-repairs.html">Drywall Repairs</a><h3>Patching, texture matching, ceiling repair</h3></div>
-      <div class="service-item"><a href="tv-mounting.html">TV Mounting</a><h3>Clean cord concealment, secure installation</h3></div>
-      <div class="service-item"><a href="door-installation.html">Door Installation</a><h3>Interior, exterior, pocket, sliding doors</h3></div>
-      <div class="service-item"><a href="painting.html">Painting</a><h3>Touch-ups, walls, trim, resale prep</h3></div>
-      <div class="service-item"><a href="trim-molding.html">Trim & Molding</a><h3>Baseboards, casing, crown</h3></div>
-      <div class="service-item"><a href="siding-repair.html">Siding Repair</a><h3>Wood, fiber cement</h3></div>
-      <div class="service-item"><a href="cabinet-hardware.html">Cabinet Hardware</a><h3>Knobs, pulls, hinges</h3></div>
-      <div class="service-item"><a href="masonry.html">Patio & Masonry Repair</a><h3>Stone, mortar, leveling</h3></div>
-      <div class="service-item"><a href="flooring.html">Flooring</a><h3>LVP, laminate</h3></div>
-      <div class="service-item"><a href="appliance-installation.html">Appliance Installs</a><h3>Dishwashers, microwaves</h3></div>
+    <div class="action-buttons" style="margin-top:0.5em;">
+      <a class="action-btn" href="tel:2105706477">📞 Ask About a Repair</a>
     </div>
+  </div>
 
-    <div class="all-services-link">
-      <a href="all-services.html">🔗 View Full List of Services</a>
-    </div>
-  </section>
+</section>
 
-  <!-- MATCHING FULL FOOTER -->
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-content">
 
-      <!-- COLUMN 1 -->
       <div class="footer-col">
         <h3>The Modern Handyman</h3>
-        <p>In Business Since 2015<br>
-           Over 25 Years of Experience</p>
-        <p><strong>Phone:</strong> <a href="tel:2105706477">(210) 570-6477</a></p>
-        <p><strong>Email:</strong> <a href="mailto:service@themodernhandymancompany.com">service@themodernhandymancompany.com</a></p>
-        <p><strong>Hours:</strong><br>Mon–Fri: 8:00 AM – 5:00 PM<br>Sat–Sun: Closed</p>
-      </div>
+        <p>In Business Since 2015<br>Over 25 Years of Experience</p>
 
-      <!-- COLUMN 2 -->
-      <div class="footer-col">
-        <h4>Handyman Services</h4>
+        <p><strong>Phone:</strong> 
+          <a href="tel:2105706477">(210) 570-6477</a>
+        </p>
+
+        <p><strong>Email:</strong>
+          <a href="mailto:service@themodernhandymancompany.com">
+            service@themodernhandymancompany.com
+          </a>
+        </p>
+
+        <p><strong>Hours:</strong><br>
+          Mon–Fri: 8:00 AM – 5:00 PM
+        </p>
+
         <ul>
-          <li><a href="drywall-repairs.html">Drywall Repairs</a></li>
-          <li><a href="tv-mounting.html">TV Mounting</a></li>
-          <li><a href="door-installation.html">Door Installation</a></li>
-          <li><a href="painting.html">Painting</a></li>
-          <li><a href="trim-molding.html">Trim &amp; Molding</a></li>
-          <li><a href="siding-repair.html">Siding Repair</a></li>
-          <li><a href="cabinet-hardware.html">Cabinet Hardware Install</a></li>
-          <li><a href="masonry.html">Patio &amp; Masonry Repair</a></li>
-          <li><a href="flooring.html">Flooring</a></li>
-          <li><a href="appliance-installation.html">Appliance Installs</a></li>
+          <li><a href="index.html">Main Homepage</a></li>
         </ul>
       </div>
 
-      <!-- COLUMN 3 -->
+      <div class="footer-col">
+        <h4>Handyman Services</h4>
+        <ul>
+          <li><a href="drywall-repairs-{{city-slug}}-tx.html">Drywall Repairs</a></li>
+          <li><a href="tv-wall-mount-installation-{{city-slug}}-tx.html">TV Mounting</a></li>
+          <li><a href="door-installation-{{city-slug}}-tx.html">Door Installation</a></li>
+          <li><a href="painting-{{city-slug}}-tx.html">Painting</a></li>
+          <li><a href="trim-molding-{{city-slug}}-tx.html">Trim & Molding</a></li>
+          <li><a href="siding-repairs-{{city-slug}}-tx.html">Siding Repair</a></li>
+          <li><a href="cabinet-hardware-installation-{{city-slug}}-tx.html">Cabinet Hardware Installation</a></li>
+          <li><a href="masonry-{{city-slug}}-tx.html">Masonry & Stucco Repair</a></li>
+          <li><a href="flooring-{{city-slug}}-tx.html">Flooring</a></li>
+          <li><a href="appliance-installation-{{city-slug}}-tx.html">Appliance Installs</a></li>
+        </ul>
+      </div>
+
       <div class="footer-col">
         <h4>Service Areas</h4>
         <ul>
@@ -189,21 +358,27 @@
           <li><a href="alamo-heights-tx.html">Alamo Heights</a></li>
           <li><a href="terrell-hills-tx.html">Terrell Hills</a></li>
           <li><a href="northeast-san-antonio-tx.html">Northeast San Antonio</a></li>
+          <li><a href="st-hedwig-tx.html">St. Hedwig</a></li>
+          <li><a href="adkins-tx.html">Adkins</a></li>
         </ul>
       </div>
 
-      <!-- COLUMN 4: SOCIAL -->
       <div class="footer-col">
         <h4>Follow Us</h4>
         <ul class="social-links">
           <li><a href="https://www.facebook.com/Modernhandymansatx/" target="_blank">
             <i class="fab fa-facebook"></i> Facebook</a></li>
+
           <li><a href="https://www.instagram.com/themodernhandyman.tx/" target="_blank">
             <i class="fab fa-instagram"></i> Instagram</a></li>
+
           <li><a href="https://www.youtube.com/@TheModernHandyman" target="_blank">
             <i class="fab fa-youtube"></i> YouTube</a></li>
-          <li><a href="https://share.google/twXYwD5vc2OcYSFLv" target="_blank">
+
+          <li><a href="https://share.google/xdBSVM4nRfoH9U8qR" target="_blank">
             <i class="fas fa-map-marker-alt"></i> Google Business</a></li>
+
+          <li><a href="blog.html"><i class="fas fa-pencil-alt"></i> Blog</a></li>
         </ul>
       </div>
 
