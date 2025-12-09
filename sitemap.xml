@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME PAGE -->
+  <url>
+    <loc>https://themodernhandymancompany.com/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- BLOG HOME -->
+  <url>
+    <loc>https://themodernhandymancompany.com/blog.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- BLOG POSTS -->
+  <url>
+    <loc>https://themodernhandymancompany.com/blog-small-home-repairs-converse.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://themodernhandymancompany.com/blog-tv-mounting-live-oak.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://themodernhandymancompany.com/blog-choosing-handyman-universal-city.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- CITY PAGES -->
+  <url><loc>https://themodernhandymancompany.com/converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/northeast-san-antonio-tx.html</loc></url>
+
+  <!-- SERVICE PAGES - BY CITY -->
+  <!-- APPLIANCE INSTALLATION -->
+  <url><loc>https://themodernhandymancompany.com/appliance-installation.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/appliance-installation-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- CABINET HARDWARE INSTALLATION -->
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/cabinet-hardware-installation-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- DOOR INSTALLATION -->
+  <url><loc>https://themodernhandymancompany.com/door-installation.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/door-installation-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- DRYWALL REPAIRS -->
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repair-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/drywall-repairs-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- FLOORING -->
+  <url><loc>https://themodernhandymancompany.com/flooring.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/flooring-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- MASONRY -->
+  <url><loc>https://themodernhandymancompany.com/masonry.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/masonry-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- PAINTING -->
+  <url><loc>https://themodernhandymancompany.com/painting.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/painting-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- SIDING -->
+  <url><loc>https://themodernhandymancompany.com/siding-repairs.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repair-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/siding-repairs-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- TRIM & MOLDING -->
+  <url><loc>https://themodernhandymancompany.com/trim-molding.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/trim-molding-northeast-san-antonio-tx.html</loc></url>
+
+  <!-- TV MOUNTING -->
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-mounting-converse-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-schertz-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-universal-city-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-live-oak-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-selma-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-windcrest-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-cibolo-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-garden-ridge-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-alamo-heights-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-terrell-hills-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-st-hedwig-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-adkins-tx.html</loc></url>
+  <url><loc>https://themodernhandymancompany.com/tv-wall-mount-installation-northeast-san-antonio-tx.html</loc></url>
+
+</urlset>
